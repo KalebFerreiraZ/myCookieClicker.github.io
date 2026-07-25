@@ -1,0 +1,139 @@
+@media (max-width:800px){
+
+    #upgradeConstruct{
+       
+        border: 1px solid black;
+       flex: 1 1 auto; /* pode crescer e encolher */
+       justify-content: center;
+       align-items: center;
+        
+    
+    }
+    #displayCookie{
+        background-image: url(background.png);
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+         border: 1px solid black;
+          flex: 1 1 auto; /* pode crescer e encolher */
+   
+    width: 300px;   /* tamanho de partida */
+    height: 90vh;
+
+    }
+    #settings{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .up{
+        display: flex;
+        
+        align-items: center;
+        flex: 1;
+        height: 131px;
+        border: 1px solid black;
+    }
+    .upImg{
+        flex: 1;
+        width: 1px;
+        height: 80px;
+        border: 1px solid black;
+    }
+    #upImg1{
+        background-image: url(cursor.png);
+        background-size: cover;
+    }
+    #upImg2{
+        background-image: url(vovo.png);
+        background-size: cover;
+    }
+     #upImg3{
+        background-image: url(fazenda.png);
+        background-size: cover;
+    }
+     #upImg4{
+        background-image: url(mina.png);
+        background-size: cover;
+    }
+     #upImg5{
+        background-image: url(fabrica.png);
+        background-size: cover;
+    }
+    #madeira{
+        background-image: url(madeira.png);
+        background-size: cover;
+    }
+    .madeira{
+        background-image: url(madeira.png);
+        background-size: cover;
+    }
+    .upText{
+        background-image: linear-gradient(to bottom,rgb(250, 250, 249),rgb(238, 250, 196));
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: 1px solid black;
+        flex: 3;
+    }
+    #cookie{
+        
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+        background-image: url(cookie.png);
+        background-size: cover;
+        border-radius: 50%;
+    }
+    #contCookies{
+        background-image: linear-gradient(to bottom,gray,white);
+        height: 100px;
+        width: 55%;
+        
+        position: absolute;
+        border: 1px solid black;
+    }
+    .seting{
+      margin-left: 25px;
+    }
+    #config{
+        
+        border: 1px solid black;
+       max-width: 775px;
+       height: 675px;
+    }
+    .button{
+        font-family: 'Times New Roman', Times, serif;
+        display: block;
+       font-size: xx-large;
+       margin: auto;
+        text-align: center;
+        padding: 15px;
+    }
+    #saves{
+        border: 1px solid black;
+    }
+    #infos{
+        border: 1px solid black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 80px;
+    }
+   #load{
+    background-image: linear-gradient(to bottom,rgb(68, 219, 9),rgb(37, 148, 37));
+   }
+   #load:hover{
+        margin-bottom: 5px;
+        padding: 10px;
+   }
+   #deleteSave{
+    
+    color: aliceblue;
+     background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.828),rgb(130, 3, 3));
+   }
+   #deleteSave:hover{
+    padding: 10px;
+    margin-top: 5px;
+   }
+}
